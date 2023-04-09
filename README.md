@@ -20,7 +20,7 @@ To get started with AI-Healthcare-chatbot, follow the instructions below:
 
 1. Clone the repository: `git clone https://github.com/mmubarak0/AI-Healthcare-chatbot.git && cd AI-Healthcare-chatbot`
 2. Install the dependencies: `pip install -r requirements.txt`
-3. Run the chatbot: `python healthbot.py`
+3. Run the chatbot: `python main.py`
 4. Start interacting with HealthBot in your preferred chat interface (e.g., web browser, chat client, etc.)
 
 ## Contributions
