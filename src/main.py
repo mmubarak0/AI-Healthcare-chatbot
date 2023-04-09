@@ -7,5 +7,9 @@ mubarak.set_gender = "male"
 Reply(mubarak.Create()).send(interactive=True)
 
 
-mubarak.set_message("I think my left arm is broken")
-Reply(mubarak.Create()).send(interactive=True)
+while (True):
+	print("Describe you problem")
+	mubarak.set_message(input())
+	Reply(mubarak.Create()).send(interactive=True)
+#mubarak.set_message("I think my left arm is broken")
+#Reply(mubarak.Create()).send(interactive=True)
