@@ -1,3 +1,4 @@
+#!/bin/env/python3
 import sys
 from PyQt5.QtWidgets import QApplication
 from gui.mainwindow import MyHealthCareBot
