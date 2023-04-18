@@ -61,7 +61,7 @@ class Reply:
 		self.thread_count = 0
 	
 	def send(self, interactive=False):
-		self.response = client.send_message(model, self.query.message, with_chat_break=True)
+		self.response = client.send_message(model, self.query.message, with_chat_break=False)
 		print(f"{bcolors.OKCYAN}Prompt >> {bcolors.ENDC}", self.query.get_message())
 		if interactive:
 			for i in self.response:
